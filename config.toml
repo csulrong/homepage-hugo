@@ -1,0 +1,4 @@
+baseURL = "http://rongl.info/"
+languageCode = "zh-hans"
+title = "荣亮的技术博客"
+theme = "erblog"
