@@ -1,4 +1,63 @@
-baseURL = "http://rongl.info/"
+baseURL = "https://rongl.info/"
 languageCode = "zh-hans"
 title = "荣亮的技术博客"
 theme = "erblog"
+
+[params]
+    author = "荣亮 (Jet)"
+    description = "本站点为原创技术博客，转载请注明：https://rongl.info"
+    math = true
+    index_posts_num = 5
+    badge = "orange"
+    quote = "red"
+    google_search = true
+    # logo = "//blog.ertuil.top/avater.png"
+    bio = """
+    <p> This is BIO. You can write something here. </p>
+    <br />
+    <p>Also all html tags such as <a href="https://github.com/ertuil/erblog">link</a> are a good here.</p>
+    """
+
+
+
+[[menu.main]]
+    url = "/downloads/"
+    name = "下载"
+    weight = 7
+
+[[menu.main]]
+    url = "/about/"
+    name = "关于"
+    weight = 7
+
+[[menu.footer]]
+    identifier = "home"
+    name = "回到主页"
+    url = "/"
+    weight = 1
+
+[[menu.footer]]
+    identifier = "about"
+    name = "关于"
+    url = "/about/"
+    weight = 2
+
+[[menu.icon]]
+    url = "mailto:csulrong@gmail.com"
+    name = "envelope-o"
+    weight = 1
+
+[[menu.icon]]
+    url = "https://github.com/csulrong/"
+    name = "github"
+    weight = 1
+
+[[menu.icon]]
+    url = "https://twitter.com/csulrong"
+    name = "twitter"
+    weight = 1
+
+[[menu.icon]]
+    url = "https://www.instagram.com/csulrong/"
+    name = "instagram"
+    weight = 1
